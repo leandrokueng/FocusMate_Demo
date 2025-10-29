@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:FocusMate.ViewModels"
+             x:Class="FocusMate.Views.StatsPage"
+             Title="Statistik"
+             Appearing="ContentPage_Appearing">
+
+	<ContentPage.BindingContext>
+		<vm:StatsViewModel />
+	</ContentPage.BindingContext>
+
+	<VerticalStackLayout Padding="24" Spacing="16">
+		<Label Text="{Binding TodayText}" FontAttributes="Bold" FontSize="20" />
+		<Button Text="Statistik löschen" Clicked="OnClearClicked" />
+	</VerticalStackLayout>
+</ContentPage>

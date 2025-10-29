@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell x:Class="FocusMate.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:FocusMate.Views">
+    <TabBar>
+        <Tab Title="Timer">
+            <ShellContent ContentTemplate="{DataTemplate views:TimerPage}" />
+        </Tab>
+        <Tab Title="Statistik">
+            <ShellContent ContentTemplate="{DataTemplate views:StatsPage}" />
+        </Tab>
+        <Tab Title="Einstellungen">
+            <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+        </Tab>
+    </TabBar>
+</Shell>
