@@ -32,15 +32,18 @@ Die Navigation erfolgt über eine **Shell mit Tab-Bar**, die die drei Hauptseite
 
 ### **Timer**
 Startseite mit Countdown, Start-/Pause-Buttons und Navigation unten.  
-![Timer](docs/timer.png)
+![Timer](<img width="815" height="1876" alt="timer png" src="https://github.com/user-attachments/assets/38ab2882-cf46-40a2-9c20-23ebc2146a23" />
+)
 
 ### **Statistik**
 Zeigt, wie lange du dich heute fokussiert hast.  
-![Statistik](docs/stats.png)
+![Statistik](<img width="819" height="1869" alt="statistik png" src="https://github.com/user-attachments/assets/c08b077d-0106-4dab-84a3-24e344458007" />
+)
 
 ### **Einstellungen**
 Darkmode-Umschalter, Shake-Pause und anpassbare Fokuszeit.  
-![Einstellungen](docs/settings.png)
+![Einstellungen](<img width="817" height="1877" alt="Settings png" src="https://github.com/user-attachments/assets/1ec9ed80-e77f-4fd3-9c91-75a63b7447cd" />
+)
 
 ---
 
