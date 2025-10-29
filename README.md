@@ -1,25 +1,48 @@
-# 📱 FocusMate (Demo)
+# ⏱️ FocusMate (Demo)
 
-**Fokus-Timer App** entwickelt mit **.NET MAUI**  
-💡 Funktionen:
-- Start / Pause-Timer mit Vibration
-- Statistik mit SQLite-Datenspeicherung
-- Dark-/Light-Mode-Umschaltung
-- Shake-to-Pause (Accelerometer)
+**FocusMate** ist eine mobile App, die beim **konzentrierten Arbeiten** hilft.  
+Sie basiert auf der **Pomodoro-Methode** und wurde mit **.NET MAUI (C#)** entwickelt.  
+Die App wurde im Rahmen des Moduls **LB335 – Mobile Applikationen entwickeln** erstellt.
 
-## 🧩 Screenshots
-| Timer | Statistik | Einstellungen |
-|-------|------------|---------------|
-| ![Timer](<img width="815" height="1876" alt="Screenshot 2025-10-28 091224" src="https://github.com/user-attachments/assets/3394e2e3-43a4-4eba-882e-d54be1bf1700" />)
- | ![Stats](<img width="819" height="1869" alt="Screenshot 2025-10-28 091324" src="https://github.com/user-attachments/assets/3d60e166-e48d-4b01-9352-8047d197d3ef" />) | ![Settings](<img width="817" height="1877" alt="Screenshot 2025-10-28 091412" src="https://github.com/user-attachments/assets/76da6442-e4d9-47e1-a069-53fbab72d7c0" />) |
+---
+
+## 🚀 Funktionen
+
+- **Fokus-Timer:** Stelle deine gewünschte Arbeitszeit ein und starte den Countdown.  
+- **Shake-to-Pause:** Schüttle das Gerät, um den Timer automatisch zu pausieren.  
+- **Darkmode:** Aktiviere den Auto-Darkmode für augenschonendes Arbeiten.  
+- **Statistik:** Sieh, wie lange du dich heute bereits konzentriert hast.  
+- **Einstellungen:** Passe Fokuszeit, Darkmode und Shake-Funktion individuell an.  
+- **Datenhaltung mit SQLite:** Fokuszeiten werden lokal gespeichert.
+
+---
 
 ## 🧠 Architektur
-MVVM-Pattern, Services für Datenspeicherung, Shell-Navigation mit Tabs.  
-Plattform: **Android 13+**, getestet auf Emulator Pixel 7.
 
-## ▶️ Demo starten
-Projekt klonen und in **Visual Studio 2022** öffnen:
+Die App verwendet das **MVVM-Muster (Model-View-ViewModel)**:  
+- **Models:** enthalten Datenstrukturen (z. B. Fokus-Sitzung)  
+- **ViewModels:** steuern Logik und Datenbindung (Start, Pause, Speicherung)  
+- **Views:** stellen die Oberfläche dar (XAML-Seiten für Timer, Statistik, Settings)
 
-```bash
-git clone https://github.com/leandrokueng/FocusMate_Demo.git
+Die Navigation erfolgt über eine **Shell mit Tab-Bar**, die die drei Hauptseiten verbindet.
+
+---
+
+## 📱 Screenshots
+
+### **Timer**
+Startseite mit Countdown, Start-/Pause-Buttons und Navigation unten.  
+![Timer](docs/timer.png)
+
+### **Statistik**
+Zeigt, wie lange du dich heute fokussiert hast.  
+![Statistik](docs/stats.png)
+
+### **Einstellungen**
+Darkmode-Umschalter, Shake-Pause und anpassbare Fokuszeit.  
+![Einstellungen](docs/settings.png)
+
+---
+
+## 🗂️ Projektstruktur
 
