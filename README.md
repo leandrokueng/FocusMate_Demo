@@ -45,7 +45,5 @@ Darkmode-Umschalter, Shake-Pause und anpassbare Fokuszeit.
 ![Einstellungen](<img width="817" height="1877" alt="Settings png" src="https://github.com/user-attachments/assets/1ec9ed80-e77f-4fd3-9c91-75a63b7447cd" />
 )
 
----
 
-## 🗂️ Projektstruktur
 
